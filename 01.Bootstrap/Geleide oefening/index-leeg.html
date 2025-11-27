@@ -10,44 +10,44 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="bg-light">
 
 	<!-- HEADER / HERO -->
-	<header>
-		<div>
-			<p>Game overview</p>
-			<h1>Galactic Pizza Racers</h1>
-			<p>
+	<header class="bg-dark py-5 text-white">
+		<div class="container">
+			<p class="text-uppercase">Game overview</p>
+			<h1 class="display-4 fw-bold">Galactic Pizza Racers</h1>
+			<p class="lead">
 				Race door de ruimte, ontwijk asteroïden en bezorg pizza’s sneller dan het licht.
 			</p>
 		</div>
 	</header>
 
 	<!-- INLEIDING + TYPOGRAFIE -->
-	<section>
-		<div>
-			<div>
-				<h2>Waarom deze pagina?</h2>
+	<section class="container">
+		<div class="row py-4">
+			<div class="col-6">
+				<h2 class="h3 fw-bold margin-bottom-p-3">Waarom deze pagina?</h2>
 				<p>
-					Deze pagina toont hoe je met Bootstrap snel een
+					Deze pagina toont hoe je met <span class="fw-bold">Bootstrap</span> snel een
 					nette layout maakt met typografie, afbeeldingen, tabellen en het grid-systeem.
 				</p>
-				<p>
-					Let op de verschillende tekstgroottes en stijlen in deze sectie.
+				<p class="fst-italic">
+					Let op de verschillende tekstgroottes <span class="fs-6">(fs-6)</span> <span class="fs-5">fs-5</span> en <span class="fs-4 fw-bold">fS-4</span>.
 				</p>
-				<p>
-					this text is uppercased met een Bootstrap-klasse (straks).
+				<p class="text-uppercase">
+					this text is uppercased met <span class="text-uppercase"><small> <code>.text-uppercase</code></small></span>
 				</p>
 			</div>
-			<div>
-				<div>
-					<h3>Snelle info</h3>
-					<p><strong>Genre:</strong> Arcade racing</p>
-					<p><strong>Spelers:</strong> 1–4</p>
-					<p>Let op: zeer verslavend.</p>
+			<div class="col-3">
+				<div class="border rounded shadow-sm p-3">
+					<h3 class="h5 fw-bold text-primary">Snelle info</h3>
+					<p class="mb-1"><span class="fw-bold">Genre:</span> Arcade racing</p>
+					<p class="mb-1"><span class="fw-bold">Spelers:</span> 1–4</p>
+					<p class="mb-0"><small>Let op: zeer verslavend.</small></p>
 				</div>
 			</div>
-			<div>
+			<div class="col-3">
 				<img src="img/Galactic_Pizza_Racers_BWD2_tn.jpg" alt="4 Galactic Pizza Racers">
 			</div>
 		</div>
