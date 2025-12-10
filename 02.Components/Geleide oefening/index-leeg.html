@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components Oefening - Start (Funny Edition)</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- TODO: Maak hier een Bootstrap navbar -->
+    <nav class="navbar bg-light">
+        <div class="container"> <!-- container voor gecentreerde blok-->
+            <span class="navbar-brand fw-bold">Mijn Site</span>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="bg-primary text-white text-center py-5 mb-3">
+        <h1>Welkom op onze website!</h1>
+        <p class="lead">Gemaakt met liefde… en een klein beetje frustratie toen de CSS niet wou meewerken.</p>
+        <!-- lead voor eerste paragraaf onder de header-->
+    </header>
+
+    <!-- TODO: Bootstrap breadcrumb, zie op de site (bootstrap) onder components -> breadcrumb-->
+    <section class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Over ons</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+    </section>
+
+    <!-- TODO: Bootstrap alert (kan enkel in een div) "container plaatsen alignen teksten onder elkaar op een bepaald punt"-->
+    <section class="container mb-4">
+        <div class="alert alert-success">
+            Hoera! De pagina is geladen zonder errors.
+            (Dat is al meer dan je vorige project.)
+        </div>
+    </section>
+
+    <!-- TODO: Drie Bootstrap cards (zie wederom bootstrap site -> components -> card) -->
+    <section class="container mb-3" id="kaarten">
+        <div class="row g-4">
+            <div class="col-md-4 col-lg-6">
+                <!-- col-lg-6 is voor de ordening bij het verkleinen van het scherm (6= aantal kolommen naast elkaar bij verkleinen ->denk getal 12 is het max)-->
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Wat doen we? <span class="badge text-bg-secondary">Info</span></h5>
+                        <p class="card-text">
+                            Wij bouwen websites die er zo professioneel uitziendat
+                            dat zelfs je oma denkt dat je een “echte programmeur” bent.
+                        </p>
+                        <a href="#" class="btn btn-primary">Toon magie</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Voor wie is dit? <span class="badge text-bg-secondary">Info</span></h5>
+                        <p class="card-text">
+                            Voor studenten die net ontdekt hebben dat HTML géén
+                            programmeertaal is… maar we zeggen niets tegen de anderen.
+                        </p>
+                        <a href="#" class="btn btn-primary">Auw, mijn ego</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Waarom Bootstrap? <span class="badge text-bg-secondary">Info</span></h5>
+                        <p class="card-text">
+                            Omdat zelf CSS schrijven fantastisch is…
+                            tot je één spatie verkeerd zet en alles ontploft.
+                        </p>
+                        <a href="#" class="btn btn-primary">Red me, Bootstrap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TODO: Bootstrap accordion -->
+    <!-- ACCORDION (altijd open) -->
+    <section class="container mt-4 mb-4">
+        <h2 class="h4 mb-3">Veelgestelde vragen</h2>
+
+        <div class="accordion">
+
+            <!-- Q1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button">
+                        Moet ik Bootstrap installeren?
+                    </button>
+                </h2>
+                <div class="accordion-collapse show">
+                    <div class="accordion-body">
+                        Nee. Gewoon een linkje kopiëren zoals iedereen op StackOverflow doet.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="accordion-item mt-2">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button">
+                        Wat zijn components?
+                    </button>
+                </h2>
+                <div class="accordion-collapse show">
+                    <div class="accordion-body">
+                        Components zijn kant-en-klare bouwblokjes die jou er slimmer laten lijken
+                        dan je eigenlijk bent.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TODO: Button group -->
+    <section class="container text-center mb-5">
+        <p class="mb-2">Klik gerust. Ze doen toch niets… maar je voelt je wel bezig.</p>
+        <div>
+            <button class="btn btn-outline-secondary">Home</button>
+            <button class="btn btn-outline-secondary">Info</button>
+            <button class="btn btn-outline-secondary">Contact</button>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center py-5 ">
+            <h2>Contact</h2>
+            <p class="mt-2">
+                Vragen? Problemen? Crashende webpagina’s?
+                Stuur ons een bericht. We doen alsof we het kunnen oplossen.
+            </p>
+            <button class="btn btn-primary">Help mij alstublieft</button>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center py-3 text-white">
+        <small>
+            <p class="mb-0 small text-center">
+                © 2025 Mijn Site – Alle rechten voorbehouden.
+                (Behalve de bugs. Die mag je houden.)
+
+            </p>
+        </small>
+    </footer>
+
+</body>
+
+</html>
