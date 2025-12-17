@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Superhelden Academie – Inschrijfformulier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Inschrijving Superhelden Academie</h1>
+  <p>Vul het formulier in en sluit je aan bij de heldhaftigste opleiding ter wereld.</p>
+
+  <form>
+
+    <!-- STAP 1 – Persoonlijke gegevens -->
+    <h2>1. Persoonlijke gegevens</h2>
+
+    <label for="voornaam">Voornaam</label><br>
+    <input type="text" id="voornaam" required><br><br>
+
+    <label for="supernaam">Superheldennaam</label><br>
+    <input type="text" id="supernaam" required><br><br>
+
+    <label for="email">E-mailadres</label><br>
+    <input type="email" id="email" placeholder="hero@academy.com"><br>
+    <small>We gebruiken je e-mailadres enkel in noodgevallen.</small><br><br>
+
+    <!-- STAP 2 – Superkracht -->
+    <h2>2. Kies je superkracht</h2>
+
+    <label for="kracht">Superkracht</label><br>
+    <select id="kracht">
+      <option selected>Kies een kracht...</option>
+      <option>Onzichtbaarheid</option>
+      <option>Supersnelheid</option>
+      <option>Teleportatie</option>
+      <option>Gedachten lezen</option>
+      <option>Superslim brein</option>
+    </select><br><br>
+
+    <!-- STAP 3 – Uitrusting -->
+    <h2>3. Uitrusting</h2>
+    <p>Welke uitrusting wil je tijdens je opleiding?</p>
+
+    <input type="checkbox" id="mantel">
+    <label for="mantel">Onzichtbaarheidsmantel</label><br>
+
+    <input type="checkbox" id="laserbril">
+    <label for="laserbril">Laserbril</label><br>
+
+    <input type="checkbox" id="jetpack">
+    <label for="jetpack">Jetpack</label><br><br>
+
+    <!-- STAP 4 – Missie -->
+    <h2>4. Geheime missie</h2>
+    <p>Wat is jouw favoriete type missie?</p>
+
+    <input type="radio" name="missie" id="wereldredden">
+    <label for="wereldredden">De wereld redden</label><br>
+
+    <input type="radio" name="missie" id="snacksbeschermen">
+    <label for="snacksbeschermen">Snacks beschermen tegen collega-superhelden</label><br><br>
+
+    <!-- STAP 5 – Donkere modus -->
+    <h2>5. Donkere supermodus</h2>
+
+    <input type="checkbox" id="darkmode">
+    <label for="darkmode">Activeer donkere supermodus</label><br><br>
+
+    <!-- STAP 6 – Ervaring -->
+    <h2>6. Ervaring</h2>
+
+    <label for="ervaring">
+      Hoe ervaren ben je als superheld? (0 = beginner, 10 = legende)
+    </label><br>
+    <input type="range" id="ervaring" min="0" max="10"><br><br>
+
+    <!-- STAP 7 – Budget -->
+    <h2>7. Superhelden-budget</h2>
+
+    <label for="budget">Budget voor gadgets (€)</label><br>
+    <input type="text" id="budget"><br><br>
+
+    <!-- STAP 8 – Geheime opmerkingen -->
+    <h2>8. Geheime opmerkingen</h2>
+
+    <label for="geheimeOpmerkingen">Geheime opmerkingen</label><br>
+    <textarea id="geheimeOpmerkingen" rows="4"></textarea><br><br>
+
+    <!-- STAP 9 – VIP-code -->
+    <h2>9. VIP-code</h2>
+
+    <fieldset disabled>
+      <label for="vip">VIP-code (alleen voor Batman)</label><br>
+      <input type="text" id="vip" value="BATMAN-ONLY"><br>
+      <small>Deze code is momenteel niet beschikbaar.</small>
+    </fieldset><br><br>
+
+    <!-- STAP 10 – Akkoord & verzenden -->
+    <h2>10. Laatste check</h2>
+
+    <input type="checkbox" id="akkoord" required>
+    <label for="akkoord">
+      Ik verklaar plechtig dat ik géén schurk ben.
+    </label><br><br>
+
+    <button type="submit">
+      Inschrijven als Superheld
+    </button>
+
+  </form>
+
+</body>
+
+</html>

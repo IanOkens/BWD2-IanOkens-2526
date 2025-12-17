@@ -3,69 +3,61 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HandigHuis Klusbedrijf – Slimme oplossingen voor elke klus</title>
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header class="bg-white border-bottom">
-		<div class="container">
-			<nav class="d-flex align-items-center justify-content-between py-3">
-				<a href="index.html#home" class="text-primary fw-bold text-decoration-none">HandigHuis</a>
 
-				<ul class="list-unstyled d-flex align-items-center gap-4 mb-0">
-					<li>
-						<a href="#home" class="text-black fw-semibold text-decoration-none">Home</a>
-					</li>
-					<li>
-						<a href="#diensten" class="text-black fw-semibold text-decoration-none">Diensten</a>
-					</li>
-					<li>
-						<a href="#dagactie" class="text-black fw-semibold text-decoration-none">Dagactie</a>
-					</li>
-					<li>
-						<a href="#reviews" class="text-black fw-semibold text-decoration-none">Reviews</a>
-					</li>
-					<li>
-						<a href="#werkwijze" class="text-black fw-semibold text-decoration-none">Werkwijze &amp;
-							tarieven</a>
-					</li>
-					<li>
-						<a href="#contact" class="text-black fw-semibold text-decoration-none">Contact</a>
-					</li>
-				</ul>
-			</nav>
+	<!-- HEADER -->
+	<header class="bg-white border-bottom">
+		<div class="container d-flex align-items-center justify-content-between py-3">
+			<a href="index.html#home" class="text-primary fw-bold text-decoration-none">HandigHuis</a>
+
+			<ul class="nav">
+				<li class="nav-item"><a class="nav-link text-dark small" href="#home">Home</a></li>
+				<li class="nav-item"><a class="nav-link text-dark small" href="#diensten">Diensten</a></li>
+				<li class="nav-item"><a class="nav-link text-dark small" href="#dagactie">Dagactie</a></li>
+				<li class="nav-item"><a class="nav-link text-dark small" href="#reviews">Reviews</a></li>
+				<li class="nav-item"><a class="nav-link text-dark small" href="#werkwijze">Werkwijze &amp; tarieven</a>
+				</li>
+				<li class="nav-item"><a class="nav-link text-dark small" href="#contact">Contact</a></li>
+			</ul>
 		</div>
 	</header>
 
 	<!-- HERO -->
-	<section id="home" class="bg-primary align-content-center text-white py-5">
-		<div class="container py-4">
-			<div class="row align-items-center g-md-5">
+	<section id="home" class="hero bg-primary text-white">
+		<div class="container py-5">
+			<div class="row align-items-center justify-content-end g-5">
 
-				<div class="col-12 col-sm-4">
-					<h1 class="display-5 fw-bold">
-						HandigHuis Klusbedrijf – slimme oplossingen voor elke klus
+				<div class="col-12 col-lg-4">
+					<h1 class="display-4 fw-bold lh-1 mb-3">
+						<span class="d-block">HandigHuis</span>
+						<span class="d-block">Klusbedrijf –</span>
+						<span class="d-block">slimme oplossingen</span>
+						<span class="d-block">voor elke klus</span>
 					</h1>
 
-					<p class="text-white-50 mb-4">
-						Bij HandigHuis combineren we vakmanschap met creativiteit.
-						Van kleine snelle fixes tot volledige make-overs: wij zorgen ervoor dat jouw huis
-						niet gewoon in orde is, maar écht goed voelt. Netjes, efficiënt, transparant —
+					<p class="lead text-white-50 mb-4">
+						Bij HandigHuis combineren we vakmanschap met creativiteit. Van kleine snelle fixes tot volledige
+						make-overs:
+						wij zorgen ervoor dat jouw huis niet gewoon in orde is, maar écht goed voelt. Netjes, efficiënt,
+						transparant —
 						en altijd met een glimlach.
 					</p>
 
-					<div class="d-flex align-items-center gap-3">
-						<a href="offerte.html" class="link-light text-decoration-none fw-semibold">Vraag een offerte</a>
-						<a href="#diensten" class="btn btn-outline-light">Bekijk onze diensten</a>
+					<div class="d-flex align-items-center gap-4 flex-wrap">
+						<a href="offerte.html" class="link-light fw-semibold text-decoration-none">Vraag een offerte</a>
+						<a href="#diensten" class="btn btn-outline-light btn-lg">Bekijk onze diensten</a>
 					</div>
 				</div>
 
-				<div class="col-12 col-lg-6 text-lg-end">
-					<img src="img/hero-klus.jpg" alt="Klusser aan het werk" class="img-fluid rounded-3 shadow">
+				<div class="col-12 col-lg-7 text-lg-center">
+					<img src="img/hero-klus.jpg" alt="Klusser aan het werk" class="img-fluid rounded-3 shadow w-75">
 				</div>
 
 			</div>
@@ -76,109 +68,117 @@
 	<section class="bg-light py-5">
 		<div class="container text-center">
 			<h2 class="fw-bold mb-3">Jouw betrouwbare kluspartner</h2>
+
 			<div class="row justify-content-center">
-				<p class="about-text text-secondary mb-0">
-					Bij HandigHuis zijn we allergisch aan half afgewerkte projecten en rondslingerende to-do’s.
-					We houden ervan om alles wat blijft liggen op te lossen: een muur die opnieuw fris moet,
-					een kast die scheef hangt, verlichting die beter kan, een terras dat liefde nodig heeft…
-					Met meer dan 10 jaar ervaring in kleine renovaties, onderhoud en creatieve oplossingen zorgen
-					we ervoor dat elk project — groot of klein — plezierig, vlot en professioneel verloopt.
-					Onze klanten waarderen ons om onze heldere communicatie, stipte afspraken en puntgave afwerking.
-				</p>
+				<div class="col-12 col-md-10 col-lg-6">
+					<p class="text-muted mb-0">
+						Bij HandigHuis zijn we allergisch aan half afgewerkte projecten en rondslingerende to-do’s. We
+						houden ervan
+						om alles wat blijft liggen op te lossen: een muur die opnieuw fris moet, een kast die scheef
+						hangt, verlichting
+						die beter kan, een terras dat liefde nodig heeft… Met meer dan 10 jaar ervaring in kleine
+						renovaties, onderhoud
+						en creatieve oplossingen zorgen we ervoor dat elk project — groot of klein — plezierig, vlot en
+						professioneel
+						verloopt. Onze klanten waarderen ons om onze heldere communicatie, stipte afspraken en puntgave
+						afwerking.
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- DIENSTEN -->
-	<section id="diensten" class="py-5 bg-light">
+	<section id="diensten" class="py-6 bg-white">
 		<div class="container">
-			<h2 class="text-center fw-bold mb-1">Diensten</h2>
+			<h2 class="text-center fw-bold mb-3">Diensten</h2>
 			<p class="text-center text-secondary small mb-4">
 				Een greep uit wat we voor jou kunnen doen.
 			</p>
 
-			<div class="row g-4">
-
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 shadow-sm border-0 rounded-3">
+			<div class="row row-cols-md-3 g-4 justify-content-center">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<img src="img/schilderwerken.jpg" class="card-img-top" alt="Schilderwerken">
 						<div class="card-body">
 							<h5 class="card-title">Schilder- &amp; opfriswerken</h5>
-							<p class="card-text text-secondary">
+							<p class="card-text text-secondary small mb-0">
 								Geef je interieur een frisse vibe! We herstellen muren, werken barstjes en gaatjes weg,
-								vernieuwen kleuren en zorgen dat je woonkamer, slaapkamer of kantoor opnieuw straalt
-								alsof het net uit een magazine komt. Binnen én buiten — met een afwerking waarop je
-								trots kunt
-								zijn.
+								vernieuwen kleuren
+								en zorgen dat je woonkamer, slaapkamer of kantoor opnieuw straalt alsof het net uit een
+								magazine komt.
+								Binnen én buiten — met een afwerking waarop je trots kunt zijn.
 							</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 shadow-sm border-0 rounded-3">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<img src="img/klus-montage.jpg" class="card-img-top" alt="Montage en kleine klussen">
 						<div class="card-body">
 							<h5 class="card-title">Montage &amp; kleine klussen</h5>
-							<p class="card-text text-secondary">
+							<p class="card-text text-secondary small mb-0">
 								Noem het, en wij fixen het. Meubels monteren, tv ophangen, gordijnrails en wandrekken
-								plaatsen,
-								plinten zetten en kasten verankeren: alles wat jij lastig, tijdrovend of gewoon
-								vervelend vindt,
-								doen wij met plezier én in recordtijd.
+								plaatsen, plinten
+								zetten en kasten verankeren: alles wat jij lastig, tijdrovend of gewoon vervelend vindt,
+								doen wij met
+								plezier én in recordtijd.
 							</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 shadow-sm border-0 rounded-3">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<img src="img/tuin-klus.jpg" class="card-img-top" alt="Tuin en buitenklussen">
 						<div class="card-body">
-							<h5 class="card-title">Tuin amp; buitenklussen</h5>
-							<p class="card-text text-secondary">
+							<h5 class="card-title">Tuin &amp; buitenklussen</h5>
+							<p class="card-text text-secondary small mb-0">
 								Jouw buitenruimte verdient ook liefde! We herstellen terrassen, plaatsen tuinpoorten,
-								bouwen kleine houtconstructies en frissen alles op zodat je tuin weer een gezellige plek
-								wordt.
-								Praktisch, stevig en helemaal in jouw stijl.
+								bouwen kleine
+								houtconstructies en frissen alles op zodat je tuin weer een gezellige plek wordt.
+								Praktisch, stevig en
+								helemaal in jouw stijl.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
-	<!-- DAGACTIE -->
+
 	<section id="dagactie" class="py-5 bg-white">
 		<div class="container">
 			<h2 class="text-center fw-bold mb-4">Dagactie</h2>
 
 			<div class="row justify-content-center">
 				<div class="col-12 col-lg-8">
-					<div class="card border-0 shadow-sm rounded-3">
-						<div class="card-body p-4">
+					<div class="card shadow-sm rounded-3 overflow-hidden">
+						<div class="card-body p-3">
 
-							<p class="text-primary small fw-semibold text-uppercase mb-2">Vandaag</p>
-							<h3 class="h5 fw-bold mb-3">“Handige halve dag”-pakket</h3>
+							<p class="text-primary small fw-semibold text-uppercase mb-1">Vandaag</p>
+							<h3 class="h6 fw-bold mb-2">“Handige halve dag”-pakket</h3>
 
-							<p class="small text-secondary mb-3">
-								Soms verzamel je een lijst met kleine irritaties in huis: een deur die klemt,
-								een lamp die flikkert, een kast die bijna uit elkaar valt, een plint die loskomt…
-								Met ons Handige Halve Dag-pakket los je dat allemaal in één keer op.
+							<p class="text-muted small mb-2">
+								Soms verzamel je een lijst met kleine irritaties in huis: een deur die klemt, een lamp
+								die flikkert, een
+								kast die bijna uit elkaar valt, een plint die loskomt… Met ons Handige Halve Dag-pakket
+								los je dat allemaal
+								in één keer op.
 							</p>
 
-							<ul class="list-unstyled small text-secondary mb-4">
+							<ul class="list-unstyled small text-secondary mb-2">
 								<li class="mb-1">✓ Eén vakman, 4 uur, duidelijke prijs</li>
 								<li class="mb-1">✓ Inclusief basisgereedschap en verplaatsing in de regio</li>
 								<li>✓ Ideaal om dat “stapeltje klussen” eindelijk weg te werken</li>
 							</ul>
 
-							<div class="d-flex justify-content-between align-items-end">
+							<div class="d-flex justify-content-between align-items-end flex-wrap gap-2">
 								<p class="text-success fw-semibold mb-0 fs-5">€ 180 incl. btw</p>
-								<p class="small text-secondary mb-0">
-									Op afspraak, beperkt aantal slots per dag.
-								</p>
+								<p class="small text-secondary mb-0">Op afspraak, beperkt aantal slots per dag.</p>
 							</div>
 
 						</div>
@@ -188,18 +188,19 @@
 		</div>
 	</section>
 
+
 	<!-- REVIEWS -->
-	<section id="reviews" class="py-5 bg-white">
+	<section id="reviews" class="py-5 bg-light">
 		<div class="container">
 			<h2 class="text-center fw-bold mb-4">Wat klanten zeggen</h2>
 
-			<div class="row g-4">
+			<div class="row row-cols-md-3 g-4 justify-content-center">
 
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 border-0 shadow-sm rounded-3">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<div class="card-body p-4">
-							<p class="text-warning mb-2">★★★★★</p>
-							<p class="text-secondary mb-3">
+							<p class="mb-1 review-stars text-warning">★★★★★</p>
+							<p class="card-text text-muted small mb-3">
 								“Onze living had dringend een opfrisbeurt nodig. Niet alleen ziet alles er nu super
 								strak uit,
 								maar HandigHuis dacht actief mee over kleuren en kleine verbeteringen. Dat maakte echt
@@ -210,12 +211,11 @@
 					</div>
 				</div>
 
-
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 border-0 shadow-sm rounded-3">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<div class="card-body p-4">
-							<p class="text-warning mb-2">★★★★★</p>
-							<p class="text-secondary mb-3">
+							<p class="mb-1 review-stars text-warning">★★★★★</p>
+							<p class="card-text text-muted small mb-3">
 								“In één voormiddag: kast gemonteerd, verlichting geplaatst en nog wat herstellingen
 								gedaan.
 								Zeer vriendelijk, snel én proper gewerkt. Topservice.”
@@ -225,12 +225,11 @@
 					</div>
 				</div>
 
-
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="card h-100 border-0 shadow-sm rounded-3">
+				<div class="col-md-4">
+					<div class="card h-100 shadow-sm">
 						<div class="card-body p-4">
-							<p class="text-warning mb-2">★★★★☆</p>
-							<p class="text-secondary mb-3">
+							<p class="mb-1 review-stars text-warning">★★★★☆</p>
+							<p class="card-text text-muted small mb-3">
 								“Aangenaam contact en meedenkend. We kregen heel snel een afspraak en de werken zijn
 								perfect uitgevoerd.
 								Voor de volgende klus bellen we sowieso terug.”
@@ -239,18 +238,20 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
 
-	<!-- WERKWIJZE & TARIΕVEN -->
+	<!-- WERKWIJZE & TARIEVEN -->
 	<section id="werkwijze" class="py-5 bg-light">
 		<div class="container">
 			<h2 class="text-center fw-bold mb-4">Werkwijze &amp; tarieven</h2>
+
 			<div class="row g-5 justify-content-center">
-				<div class="col-12 col-lg-6">
-					<h3 class="h5 fw-bold mb-3 text-center text-lg-start">Hoe we werken</h3>
-					<ol class="text-secondary">
+				<div class="col-12 col-lg-5">
+					<h3 class="h6 fw-bold mb-3 text-center text-lg-start">Hoe we werken</h3>
+					<ol class="text-muted small mb-0">
 						<li>Je stuurt een bericht met je idee of probleem (foto’s zijn altijd handig!).</li>
 						<li>We bekijken samen de opties en geven een duidelijke richtprijs.</li>
 						<li>Indien nodig komen we ter plaatse voor een preciezere inschatting.</li>
@@ -259,21 +260,23 @@
 						<li>Je ontvangt een transparante factuur zonder verborgen kosten.</li>
 					</ol>
 				</div>
-				<div class="col-12 col-lg-5">
-					<h3 class="h5 fw-bold mb-3 text-center text-lg-start">Richttarieven</h3>
-					
-					<ul class="list-unstyled text-secondary">
-						<li class="mb-1"><span class="fw-semibold text-secondary">Uurtarief:</span> vanaf € 45 incl. btw (excl. materialen)</li>
-						<li class="mb-1"><span class="fw-semibold text-secondary">Halve dag (4u):</span> € 180 incl. btw</li>
-						<li class="mb-3"><span class="fw-semibold text-secondary">Volledige dag:</span> prijs op offerte</li>
-						<li>
+
+				<div class="col-12 col-lg-4">
+					<h3 class="h6 fw-bold mb-3 text-center text-lg-start">Richttarieven</h3>
+
+					<ul class="list-unstyled text-muted small">
+						<li class="mb-1"><span class="fw-semibold text-dark">Uurtarief:</span> vanaf € 45 incl. btw
+							(excl. materialen)</li>
+						<li class="mb-1"><span class="fw-semibold text-dark">Halve dag (4u):</span> € 180 incl. btw</li>
+						<li class="mb-3"><span class="fw-semibold text-dark">Volledige dag:</span> prijs op offerte</li>
+						<li class="mb-0">
 							Voor grotere projecten werken we met een vaste prijs, zodat je vooraf precies weet waar je
-							aan toe
-							bent.
+							aan toe bent.
 						</li>
 					</ul>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
@@ -281,27 +284,36 @@
 	<section id="contact" class="py-5 bg-white">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-12 col-lg-8">
-					<h2 class="text-center align-content-center fw-bold mb-3">Contact &amp; korte vraag</h2>
+				<div class="col-12 col-lg-6">
+					<h2 class="fw-bold mb-3 text-center">Contact &amp; korte vraag</h2>
 
-					<p class="text-secondary">
+					<p class="text-muted mb-3">
 						Heb je een eenvoudige vraag of wil je eerst even aftoetsen wat mogelijk is?
 						Gebruik dit formulier of ga meteen naar onze <a href="offerte.html">offertepagina</a> om een
 						uitgebreide aanvraag te doen.
 					</p>
+
 					<address class="mb-0">
-						<p class="mb-1"><span class="fw-semibold text-secondary">E-mail:</span> hallo@handighuis.be</p>
-						<p class="mb-1"><span class="fw-semibold">Telefoon:</span> +32 (0)4 12 34 56 78</p>
-						<p class="mb-1"><span class="fw-semibold">Regio:</span> Groot-Brussel en randgemeenten</p>
+						<p class="mb-1 text-muted">
+							<span class="fw-semibold text-dark">E-mail:</span> hallo@handighuis.be
+						</p>
+						<p class="mb-1 text-muted">
+							<span class="fw-semibold text-dark">Telefoon:</span> +32 (0)4 12 34 56 78
+						</p>
+						<p class="mb-0 text-muted">
+							<span class="fw-semibold text-dark">Regio:</span> Groot-Brussel en randgemeenten
+						</p>
 					</address>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<footer class="text-center py-3 bg-dark text-white">
+
+	<footer class="text-center py-3 bg-dark text-white small">
 		HandigHuis Klusbedrijf © 2025 — Slimme oplossingen voor al je klussen in en rond het huis
 	</footer>
+
 </body>
 
 </html>
